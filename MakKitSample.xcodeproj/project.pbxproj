@@ -12,6 +12,7 @@
 		48DDD00F1DD58C6E005DCE3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DDD00D1DD58C6E005DCE3C /* Main.storyboard */; };
 		48DDD0111DD58C6E005DCE3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48DDD0101DD58C6E005DCE3C /* Assets.xcassets */; };
 		48DDD0141DD58C6E005DCE3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DDD0121DD58C6E005DCE3C /* LaunchScreen.storyboard */; };
+		48DDD01D1DD58CA9005DCE3C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DDD01C1DD58CA9005DCE3C /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		48DDD0101DD58C6E005DCE3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48DDD0131DD58C6E005DCE3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48DDD0151DD58C6E005DCE3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48DDD01C1DD58CA9005DCE3C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48DDD01D1DD58CA9005DCE3C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				48DDD0081DD58C6E005DCE3C /* MakKitSample */,
 				48DDD0071DD58C6E005DCE3C /* Products */,
+				48DDD01B1DD58CA9005DCE3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				48DDD0151DD58C6E005DCE3C /* Info.plist */,
 			);
 			path = MakKitSample;
+			sourceTree = "<group>";
+		};
+		48DDD01B1DD58CA9005DCE3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48DDD01C1DD58CA9005DCE3C /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
